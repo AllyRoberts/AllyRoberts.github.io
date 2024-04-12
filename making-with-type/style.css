@@ -1,0 +1,282 @@
+@font-face{
+    font-family:'space minimalist';
+    src:url('Space\ Minimalist.woff')
+}
+
+@font-face{
+    font-family:'Plain Cred 1978';
+    src:url(Plain\ Cred\ 1978.woff)
+}
+@font-face{
+    font-family:'Daesang space';
+    src:url(DAESANG\ SPACE\ DEMO.woff)
+}
+
+body{
+
+    background-color:black;
+}
+
+div.box{
+    width:100%;
+    background-color: white;
+    margin-bottom:100px;
+    color:white;
+}
+
+div.tab{
+    width:0%;
+    height:100 0%;
+    margin-left:auto;
+    margin-right:auto;
+    font-size: 200PX;
+    text-align:center;
+    background-color:black;
+    font-family:'Daesang space';
+    font-weight:bold;
+    color: white;
+}
+
+div.intro{
+    display:flex;
+    flex-wrap:wrap
+}
+div.introcol{
+    margin-left:auto;
+    margin-right:auto;
+    width:30%;
+    height:50%;
+    color:white;
+    background-color:black; 
+    font-size:50px;
+    font-family: 'space minimalist'
+}
+
+div.main{
+    color:white;
+    margin-left:auto;
+    Margin-right:auto;
+    margin-top:100px;
+    font-size:50px;
+    font-family:'space minimalist'
+}
+div.line1{
+    text-align:center;
+    font-size: 55px;
+}
+div.line2{
+font-size: 54px;
+color:white;
+
+}
+div.line3{
+    text-align: center;
+    font-size:55px
+}
+div.line4{
+    text-align:center;
+    font-size: 53px;
+}
+div.line5{
+    text-align:center;
+    font-size: 53px;
+}
+div.line6{
+    text-align:center;
+    font-size: 51px;
+}
+div.line7{
+    text-align:center;
+    font-size: 51px;
+}
+div.line8{
+    text-align:center;
+    font-size: 49px;
+}
+div.line9{
+    text-align:center;
+    font-size: 49px;
+}
+div.line10{
+    text-align:center;
+    font-size: 47px;
+
+}
+div.line11{
+    text-align:center;
+    font-size: 47px;
+}
+div.line12{
+    text-align:center;
+    font-size: 45px;
+}
+div.line13{
+    text-align:center;
+    font-size: 45px;
+}
+div.line14{
+    text-align:center;
+    font-size: 43px;
+}
+div.line15{
+    text-align:center;
+    font-size: 43px;
+}
+div.line16{
+    text-align:center;
+    font-size: 43px;
+
+}
+div.line17bad{
+    text-align:center;
+    font-size: 41px;
+}
+div.line18bad{
+    text-align:center;
+    font-size: 41px;
+}
+div.line19bad{
+    text-align:center;
+    font-size: 39px;
+}
+div.line20bad{
+    text-align:center;
+    font-size: 39px;
+
+}
+div.line21bad{
+    text-align:center;
+    font-size: 37px;
+}
+div.line22bad{
+    text-align:center;
+    font-size: 37px;
+}
+div.line23bad{
+    text-align:center;
+    font-size: 37px;
+}
+div.line24bad{
+    text-align:center;
+    font-size: 35px;
+}
+div.line25bad{
+    text-align:center;
+    font-size: 33px;
+}
+div.line26bad{
+    text-align:center;
+    font-size: 35px;
+}
+div.line27bad{
+    text-align:center;
+    font-size: 33px;
+
+}
+div.line28bad{
+    text-align:center;
+    font-size: 31px;
+}
+div.line29bad{
+    text-align:center;
+    font-size: 29px;
+}
+div.line30bad{
+    text-align:center;
+    font-size: 31px;
+}
+div.line31bad{
+    text-align:center;
+    font-size: 29px;
+}
+div.line32bad{
+    text-align:center;
+    font-size: 29px;
+}
+div.line33bad{
+    text-align:center;
+    font-size: 29px;
+}
+div.line34bad{
+    text-align:center;
+    font-size: 31px;
+}
+div.line35bad{
+    text-align:center;
+    font-size: 29px;
+}
+div.line36bad{
+    text-align:center;
+    font-size: 29px;
+}
+div.line37bad{
+    text-align:center;
+    font-size: 27px;
+}
+div.line38bad{
+    text-align:center;
+    font-size: 30px;
+}
+div.line39bad{
+    text-align:center;
+    font-size: 27px;
+}
+div.line40bad{
+    text-align:center;
+    font-size: 30px;
+}
+div.line41bad{
+    text-align:center;
+    font-size: 30px;
+}
+div.line42bad{
+    text-align:center;
+    font-size: 29px;
+}
+div.miniMain{
+    font-size:0px;
+color:rgb(0, 153, 0);
+background-color: rgb(141, 25, 25);
+}
+div.miniMain.a{
+    font-size:50pxpx;
+}
+div.miniMain.one{
+    color:rgb(0, 153, 0);
+    background-color: rgb(141, 25, 25);
+}
+div.miniMain.x{
+    color: rgb(141, 25, 25);
+    background-color:rgb(0, 153, 0);
+}
+div.minimain2{
+    font-size:0px;
+    color:rgb(0, 153, 0);
+    background-color: rgb(141, 25, 25);
+}
+div.minimain2.a{
+    font-size:50px;
+}
+div.minimain2.one{
+    color:rgb(0, 153, 0);
+    background-color:  rgb(141, 25, 25);
+}
+div.minimain2.x{
+    color: rgb(141, 25, 25);
+    background-color:rgb(0, 153, 0);
+}
+div.minimain3{
+    font-size: 0px;
+    color:rgb(0, 153, 0);
+}
+div.minimain3.a{
+    font-size:50px;
+}
+div.minimain3.one{
+    color:rgb(0, 153, 0);
+    background:rgb(141, 25, 25);
+}
+div.minimain3.x{
+color: rgb(141, 25, 25);
+background:rgb(0, 153, 0) ;
+}
