@@ -1,0 +1,114 @@
+/* setup */
+
+body{
+    background-color: black;
+    color:white;
+    margin:0px;
+    padding:0px;
+
+}
+
+div{
+    box-sizing:border-box;
+
+}
+
+img{
+    width:100%;
+
+}
+
+/* typography */
+
+div.largetext {
+    font: size 100px;
+    line: height 90px;
+
+}
+
+div.mediumtext{
+    Font-size:50px;
+    line-height:50px;
+
+}
+
+div.smalltext{
+    font-size: 16px;
+    line-height: 18px;
+
+}
+
+div.serif{
+    font-family:'Times New Roman', Times, serif;
+
+}
+
+div.sans{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+div.mono{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* colours */
+
+div.textcolor{
+    color:blue;
+}
+
+div.textred{
+    color:red;
+}
+
+div.bggrey{
+    background-color:grey;
+}
+
+div.bgwhite{
+    background-color:white;
+}
+
+/* widths */
+
+div.width100{
+    width:100%;
+}
+
+div.width80{
+width:80%;
+}
+
+div.width75{
+    width:75%;
+}
+
+div.width66{
+    width:66.666%;
+}
+
+div.width60{
+    width:60%;
+}
+
+div.width50{
+    width:50%;
+}
+
+div.width40{
+    width:40%;
+}
+
+div.width33{
+    width:33.333%;
+}
+
+div.width25{
+    width:25%;
+}
+
+div.width20{
+    width:20%;
+}
+
+/* design */
