@@ -15,20 +15,21 @@ div{
 
 img{
     width:100%;
+    margin-left:auto;
+    margin-right:auto;
 
 }
 
 /* typography */
 
 div.largetext {
-    font: size 100px;
-    line-height 90px;
-
+    font-size: 100px;
+    line-height: 90px;
 }
 
 div.mediumtext{
-    Font-size:50px;
-    line-height:50px;
+    Font-size:24px;
+    line-height:24px;
 
 }
 
@@ -49,11 +50,21 @@ div.sans{
 
 div.mono{
     font-family: 'Courier New', Courier, monospace;
+
+}
+
+div.textcentre{
+    text-align: center;
+
+}
+
+div.textright{
+    text-align: right;
 }
 
 /* colours */
 
-div.textcolor{
+div.text{
     color:blue;
 }
 
@@ -65,8 +76,16 @@ div.bggrey{
     background-color:grey;
 }
 
+div.bgblue{
+    background-color:blue;
+}
+
 div.bgwhite{
     background-color:white;
+}
+
+div.bgpink{
+    background-color: rgb(162, 84, 88);
 }
 
 /* widths */
@@ -112,3 +131,41 @@ div.width20{
 }
 
 /* design */
+
+div.container{
+    display:flex;
+    flex-wrap:wrap;
+}
+
+div.page{
+    height: 100vh;
+    overflow: scroll;
+}
+
+div.headline{
+    text-align: center;
+}
+
+div.box {
+   width: calc(33.333% - 20px);
+   margin: 10px;
+   padding: 15px;
+   border-radius: 40px 40px 0px 0px;
+
+}
+
+div.boxcontainer {
+    padding: 10px;
+}
+
+/* padding */
+
+div.padding1{
+    padding-bottom: 50px;
+    padding-top: 20px;
+}
+
+div.padding2{
+    padding-bottom: 75px;
+}
+
