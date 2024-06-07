@@ -22,15 +22,39 @@ img{
 
 /* typography */
 
+@font-face{
+    font-family:'exwayer';
+    src:url('exwayer.woff');
+}
+
+@font-face{
+    font-family:'whizkid';
+    src:url('whizkid.woff')
+
+}
+
+@font-face{
+    font-family:'3x5';
+    src:url('3X5_____.woff')
+
+}
+
+
 div.largetext {
-    font-size: 100px;
+    font-size: 150px;
     line-height: 90px;
+    font-family: 'exwayer';
 }
 
 div.mediumtext{
-    Font-size:24px;
-    line-height:24px;
+    Font-size:90px;
+    line-height:30px;
 
+}
+div.medium2text{
+    Font-size:100px;
+    line-height:30px;
+font-family: '3x5';
 }
 
 div.smalltext{
@@ -41,7 +65,6 @@ div.smalltext{
 
 div.serif{
     font-family:'Times New Roman', Times, serif;
-
 }
 
 div.sans{
@@ -50,12 +73,10 @@ div.sans{
 
 div.mono{
     font-family: 'Courier New', Courier, monospace;
-
 }
 
 div.textcentre{
     text-align: center;
-
 }
 
 div.textright{
@@ -71,6 +92,9 @@ div.text{
 div.textred{
     color:red;
 }
+div.textblack{
+    color:black;
+}
 
 div.bggrey{
     background-color:grey;
@@ -84,10 +108,40 @@ div.bgwhite{
     background-color:white;
 }
 
-div.bgpink{
-    background-color: rgb(162, 84, 88);
+div.bggreen{
+    background-color: rgb(90, 134, 98);
 }
 
+div.bglightblue{
+    background-color: rgb(105, 211, 194);
+}
+
+div.bgcoral{
+    background-color: rgb(255, 80, 98);
+}
+div.bgorange{
+    background-color: rgb(255, 105, 0);
+}
+
+div.bgyellow{
+    background-color: rgb(255, 213, 0);
+}
+
+div.bgpurple{
+    background-color: rgb(164, 132, 135);
+}
+
+div.bgcream{
+    background-color: rgb(255, 238, 211);
+}
+
+div.bgdgreen{
+    background-color: rgb(6, 72, 68);
+}
+
+div.bgred{
+    background-color: rgb(211, 2, 39);
+}
 /* widths */
 
 div.width100{
@@ -162,7 +216,7 @@ div.boxcontainer {
 
 div.padding1{
     padding-bottom: 50px;
-    padding-top: 20px;
+    padding-top: 50px;
 }
 
 div.padding2{
